@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Login_Sign-up",
+    "slug": "Login_Sign-up",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "plugins": [
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "246405734748305",
+          "clientToken": "903f716ae0f1b2f2046b2595337da2d5",
+          "displayName": "myRecipe"
+        }
+      ]
+    ],
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "dev.group2.foodRecipe"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "26a2b5e5-8621-4841-bd1c-c8f6ead4fdb9"
+      }
+    }
+  }
+}
